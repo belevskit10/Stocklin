@@ -20,6 +20,7 @@ Afterwards to start the project we would need to run the StocklinProjectDemoAppl
 This is a project about Books and Authors, the available endpoint calls are available in the postman collection on the root of the project, named: Stocklin Project.postman-collection.json 
 
 FOR BOOKS
+-----------------------------------------------------------------
 -GET
 -used to get all available books
 for books we use an "isbn" as an id which is: 
@@ -38,6 +39,7 @@ for example if we wish to change only the title of the book.
 -----------------------------------------------------------------
 
 FOR AUTHORS
+-----------------------------------------------------------------
 -POST
 -used for creating an author, an author has a name, age and id.
 -----------------------------------------------------------------

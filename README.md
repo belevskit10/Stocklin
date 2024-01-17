@@ -22,16 +22,15 @@ This is a project about Books and Authors, the available endpoint calls are avai
 FOR BOOKS
 -----------------------------------------------------------------
 -GET
--used to get all available books
+used to get all available books or get a specific book based on its isbn,
 for books we use an "isbn" as an id which is: 
 the International Standard Book Number is a numeric commercial book identifier that is intended to be unique
--used for getting a specific book based on its isbn
 -----------------------------------------------------------------
 -PUT
--used for creating a book, a book has an isbn, title and an author.
+used for creating a book, a book has an isbn, title and an author.
 -----------------------------------------------------------------
 -DELETE
--used for deleting a specific book based on its isbn
+used for deleting a specific book based on its isbn
 -----------------------------------------------------------------
 -PATCH
 used for partial update of a book, 
@@ -41,17 +40,17 @@ for example if we wish to change only the title of the book.
 FOR AUTHORS
 -----------------------------------------------------------------
 -POST
--used for creating an author, an author has a name, age and id.
+used for creating an author, an author has a name, age and id.
 -----------------------------------------------------------------
 -GET
--used to get all available authors
--used for getting a specific author based on thier id
+used to get all available authors or
+used for getting a specific author based on thier id
 -----------------------------------------------------------------
 -PUT
--used for updating the data of an existing author
+used for updating the data of an existing author
 -----------------------------------------------------------------
 -DELETE
--used for deleting a specific author based on their id
+used for deleting a specific author based on their id
 -----------------------------------------------------------------
 -PATCH
 used for partial update of a author, 

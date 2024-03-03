@@ -1,4 +1,4 @@
-Greetings, this is an example project for the Stocklin job opportunity.
+Greetings, this is an example project.
 
 This project uses java SpringBoot the development framework.
 
